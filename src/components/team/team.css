@@ -1,0 +1,61 @@
+.team .items{
+    transition: 0.5s;
+}
+
+.team .img{
+    position: relative;
+}
+
+.team img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.overlay i{
+    background-color: black;
+    color: azure;
+    margin: 5px;
+}
+.team .details{
+    padding: 30px;
+    text-align: center;
+}
+
+.team .details h2{
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.team .details p{
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.team .items:hover{
+    background-color: blueviolet;
+    color: azure;
+    cursor: pointer;
+}
+
+.team .items:hover p{
+    color: azure;
+
+}
+
+.team .items:hover .overlay{
+    opacity: 1;
+}

@@ -1,0 +1,93 @@
+.head {
+    padding:20px 0;
+    color:black;
+    font-weight: bolder;
+
+
+}
+.logo h1{
+    font-size: 35px;
+    font-weight: bolder;
+    /* font-style: italic; */
+}
+
+.head .icon{
+    margin-left: 10px;
+}
+
+
+/* header */
+
+header{
+    background-color: azure;
+    margin:0 30px;
+    position: relative;
+}
+
+header ul{
+    padding: 30px 20px;
+}
+
+header li{
+    margin-left: 40px;
+}
+
+header ul li a{
+    color: black;
+    /* font-size: 15px; */
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+header ul li a:hover{
+    color:blueviolet;
+
+}
+.start{
+    background-color: blueviolet;
+    padding: 30px 70px;
+    color: azure;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    /* font-style: italic; */
+    font-family:cursive ;
+    font-weight: 900;
+   
+}
+
+.toggle{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .start{
+        clip-path: none;
+    }
+    header{
+        margin: 0;
+        background-color: blueviolet;
+        position: relative;
+    }
+    header ul.flexSB{
+        display: none;
+    }
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .toggle{
+        display: block;
+        background: none;
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        right: 50px;
+        top:-20px;
+    }
+    .mobile-nav{
+        position: absolute;
+        top:7vh;
+        left: 0;
+        width: 100%;
+        background-color:blueviolet;
+    }
+}
+
