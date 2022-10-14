@@ -52,3 +52,33 @@
 .accordion{
     transition: 0.5s;
 }
+
+@media screen and (max-width:768px){
+     .container{
+        flex-direction: column;
+    }
+   .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .price .items{
+        padding: 40px;
+        text-align: center;
+    }
+    
+    .price h1{
+        font-size: 20px;
+        margin: 10px 0;
+        color: blueviolet;
+    }
+    
+    .price h1 span{
+        font-size: 12px;
+        margin-left: 3px;
+        color: black;
+    }
+    .price p{
+        color: grey;
+        margin: 20px 0;
+    }
+}

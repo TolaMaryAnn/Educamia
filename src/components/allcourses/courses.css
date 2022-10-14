@@ -125,3 +125,10 @@
 .online .box:hover h1{
     color: azure;
 }
+
+@media screen and (max-width:768px){
+     .container{
+        flex-direction: column;
+    }
+
+}

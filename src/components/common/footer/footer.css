@@ -48,6 +48,13 @@ footer .container{
         grid-template-columns:repeat(2,1fr);
         /* grid-gap: 30px; */
     }
+
+    .newletter h1{
+        color: azure;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
 }
 
 footer .logo span{

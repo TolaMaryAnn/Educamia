@@ -77,7 +77,7 @@
         margin-top: 10%;
     }
     .aboutHome .container{
-        flex-direction: column-reverse;
+        flex-direction: column;
 
     }
     .aboutHome .row{
@@ -85,5 +85,16 @@
     }
     .awrapper {
         height: 50vh;
+        
     }
+    .awrapper h1{
+        font-size: 20px;
+    }
+    .awrapper h3{
+        font-size: 15px;
+    }
+    
+       
+        
+    
 }
